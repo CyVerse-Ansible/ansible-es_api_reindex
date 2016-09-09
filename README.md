@@ -1,5 +1,6 @@
 ansible-es_api_reindex
 ======================
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-es_api_reindex-blue.svg)](https://galaxy.ansible.com/CyVerse-Ansible/es_api_reindex/)
 
 Use the [Elasticsearch ReIndex API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-reindex.html) from Ansible.
 
