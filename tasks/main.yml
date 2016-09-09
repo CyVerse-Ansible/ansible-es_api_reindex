@@ -1,0 +1,13 @@
+---
+# tasks file for ansible-es_api_reindex
+- include: check.yml
+  tags:
+      - check
+
+- uri:
+    url: "{{es_api_reindex_uri}}"
+    method: POST
+    body: "{{ lookup('template','reindex.j2') }}"
+    body_format: json
+  register: reindex
+

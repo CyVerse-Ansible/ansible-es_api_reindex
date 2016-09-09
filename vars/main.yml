@@ -1,0 +1,3 @@
+---
+# vars file for ansible-es_api_reindex
+es_api_reindex_uri: "{{es_api_reindex.host}}/_reindex{{es_api_reindex.url_params | default('')}}"

@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  roles:
+    - ansible-es_api_reindex

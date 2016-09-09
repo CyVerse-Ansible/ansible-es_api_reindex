@@ -1,0 +1,8 @@
+---
+# tasks file for ansible-es_api_reindex
+- fail: msg="Host must be defined"
+  when: es_api_reindex.host is undefined
+- fail: msg="Source index must be defined"
+  when: es_api_reindex.src is undefined
+- fail: msg="Destination index must be defined"
+  when: es_api_reindex.dest is undefined

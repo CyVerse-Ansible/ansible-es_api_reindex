@@ -1,0 +1,17 @@
+{
+  {% if es_api_reindex.conflicts is defined and es_api_reindex.conflicts %}
+  "conflicts": "proceed",
+  {% endif %}
+  "source": {
+    {% if es_api_reindex.query is defined %}
+    "query": {{es_api_reindex.query | to_json}},
+    {% endif %}
+    "index": "{{es_api_reindex.src}}"
+  },
+  "dest": {
+    {% if es_api_reindex.op_type is defined %}
+    "op_type": "{{es_api_reindex.op_type}}",
+    {% endif %}
+    "index": "{{es_api_reindex.dest}}"
+  }
+}
