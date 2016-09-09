@@ -9,51 +9,51 @@
                       lte: "{{date}}.00:00:00||+{{hour}}h/h"
                       format: "yyyy.MM.dd.HH:mm:ss"
   roles:
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 0}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 1}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 2}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 3}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 4}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 5}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 6}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 7}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 8}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 9}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 10}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 11}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 12}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 13}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 14}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 15}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 16}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 17}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 18}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 19}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 20}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 21}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 22}
-      - {role: ansible-es_api_reindex,
+      - {role: CyVerse-Ansible.es_api_reindex,
          hour: 23}
